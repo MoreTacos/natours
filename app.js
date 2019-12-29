@@ -21,7 +21,6 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
-
 // 1) GLOBAL MIDDLEWARES
 app.use(express.static(path.join(__dirname, 'public')));
 // Set Security HTTP headers
