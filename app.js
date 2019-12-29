@@ -1,3 +1,4 @@
+// Welcome to the Natours Application
 const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
@@ -21,7 +22,7 @@ const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
-// 1) GLOBAL MIDDLEWARES
+// 1) GLOBAL MIDDLE
 app.use(express.static(path.join(__dirname, 'public')));
 // Set Security HTTP headers
 app.use(helmet());
